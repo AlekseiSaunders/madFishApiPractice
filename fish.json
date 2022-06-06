@@ -1,0 +1,54 @@
+{
+  "pachypanchax": {
+    "numberOfSpecies": 11, 
+    "numberDescribedSpecies": 7,
+    "primaryLocation": "Northwestern Madagascar"
+  },
+  "bedotia": {
+    "numberOfSpecies": 19, 
+    "numberDescribedSpecies": 9,
+    "primaryLocation": "East Coast Madagascar"
+  },
+  "rheocles": {
+    "numberOfSpecies": 7, 
+    "numberDescribedSpecies": 7,
+    "primaryLocation": "Eastern Madagascar"
+  },
+	"paretroplus": {
+		"numberOfSpecies": 14, 
+    "numberDescribedSpecies": 13,
+    "primaryLocation": "Northwest, east coast"
+},
+  "paratilapia": {
+		"numberOfSpecies": 4, 
+    "numberDescribedSpecies": 2,
+    "primaryLocation": "Eastern Madagascar"
+},
+  "ptychochromis": {
+		"numberOfSpecies": 11,
+		"numberDescribedSpecies": 10,
+		"primaryLocation": "Northern Madagascar"
+},
+  "ptychochromoides": {
+		"numberOfSpecies": 3,
+		"numberDescribedSpecies": 3,
+		"primaryLocation": "Central Madagascar"
+},
+  "oxylapia": {
+		"numberOfSpecies": 1,
+		"numberDescribed": 1,
+		"primaryLocation": "Nosilvolo River"
+},
+  "katria": {
+		"numberOfSpecies": 1,
+		"numberDescribed": 1,
+		"primaryLocation": "Nosilvolo River"
+},
+"unknown": {
+		"numberOfSpecies": 0,
+		"describedSpecies": 0,
+		"primaryLocation": "unknown"
+}
+}
+
+
