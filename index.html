@@ -4,13 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/main.css">
 	<title>API Practice</title>
 </head>
 
 <body>
-	<h1>Beginning API practice</h1>
-	<p>Please use localhost:8000/api/rapper-name</p>
+	<h1>Beginning API practice: Madagascar Fish Fetcher</h1>
+	<h2>Use the field below or /api/fishGenus</h2>
+	<div>
+		<input id="fishG" type="text" placeholder="Please enter a fish genus">
+		<button type="submit" id="btnSubmit">Submit</button>
+	</div>
+	<div>
+		<h2 id="fishGenera"></h2>
+		<h3 id="numberSpecies"></h3>
+		<h3 id="describedNumber"></h3>
+		<p id="primaryLocation"></p>
+	</div>
+	<script src="/main.js"></script>
 </body>
 
 </html>
