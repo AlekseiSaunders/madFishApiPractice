@@ -1,5 +1,6 @@
 const express = require('express');
 const { readFileSync } = require('fs');
+const cors = require('cors');
 const app = express();
 const PORT = 8000;
 const fishGenera = JSON.parse(readFileSync('./fish.json'));
@@ -7,6 +8,7 @@ const fishGenera = JSON.parse(readFileSync('./fish.json'));
 // basic json for responses.
 
 app.use(express.static('public'));
+app.use(cors());
 
 // base get handling for root
 
