@@ -2,9 +2,11 @@ const express = require('express');
 const { readFileSync } = require('fs');
 const app = express();
 const PORT = 8000;
-const rappers = JSON.parse(readFileSync('./rappers.json'));
+const fishGenera = JSON.parse(readFileSync('./fish.json'));
 
 // basic json for responses.
+
+app.use(express.static('public'));
 
 // base get handling for root
 
@@ -14,12 +16,12 @@ app.get('/', (request, response) => {
 
 // /api route for requests
 
-app.get('/api/:rapperName', (request, response) => {
-  let rapName = request.params.rapperName.toLowerCase();
-  if (rappers[rapName]) {
-    response.json(rappers[rapName]);
+app.get('/api/:fishG', (request, response) => {
+  let fishG = request.params.fishG.toLowerCase();
+  if (fishGenera[fishG]) {
+    response.json(fishGenera[fishG]);
   } else {
-    response.json(rappers['unknown']);
+    response.json(fishGenera['unknown']);
   }
 });
 
