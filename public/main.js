@@ -9,7 +9,9 @@ const makeReq = async (event) => {
   event.preventDefault();
   const fishG = fishInput.value;
   console.log(`${fishG}`);
-  const res = await fetch(`/api/${fishG}`);
+  const res = await fetch(
+    `https://madfish-api-100devs.herokuapp.com/api/${fishG}`
+  );
   const data = await res.json();
   displayGenera.textContent = `Fish Genus: ${fishG}`.toUpperCase();
   displaySpecies.textContent = `Number of Species: ${data.numberOfSpecies}`;
