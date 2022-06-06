@@ -27,6 +27,6 @@ app.get('/api/:fishG', (request, response) => {
 
 // Start server listening on PORT
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Listening on Port: ${PORT}`);
 });
