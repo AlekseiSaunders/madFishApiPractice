@@ -1,27 +1,10 @@
 const express = require('express');
-const res = require('express/lib/response');
+const { readFileSync } = require('fs');
 const app = express();
 const PORT = 8000;
+const rappers = JSON.parse(readFileSync('./rappers.json'));
 
 // basic json for responses.
-
-const rappers = {
-  '21 savage': {
-    birthName: 'Sheyaa Bin Abraham-Joseph',
-    birthLocation: 'London, England',
-    age: 29,
-  },
-  'chance the rapper': {
-    birthname: 'Chancelor Bennett',
-    birthLocation: 'Chicago, Illinois',
-    age: 29,
-  },
-  unknown: {
-    birthName: 'unknown',
-    birthLocation: 'unknown',
-    age: 0,
-  },
-};
 
 // base get handling for root
 
