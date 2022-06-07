@@ -36,17 +36,17 @@
 },
   "oxylapia": {
 		"numberOfSpecies": 1,
-		"numberDescribed": 1,
+		"numberDescribedSpecies": 1,
 		"primaryLocation": "Nosilvolo River"
 },
   "katria": {
 		"numberOfSpecies": 1,
-		"numberDescribed": 1,
+		"numberDescribedSpecies": 1,
 		"primaryLocation": "Nosilvolo River"
 },
 "unknown": {
 		"numberOfSpecies": 0,
-		"numberDescribed": 0,
+		"numberDescribedSpecies": 0,
 		"primaryLocation": "unknown"
 }
 }
