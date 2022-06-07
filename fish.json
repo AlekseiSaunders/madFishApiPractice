@@ -46,7 +46,7 @@
 },
 "unknown": {
 		"numberOfSpecies": 0,
-		"describedSpecies": 0,
+		"numberDescribed": 0,
 		"primaryLocation": "unknown"
 }
 }
