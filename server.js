@@ -23,8 +23,13 @@ app.get('/api/:fishG', (request, response) => {
   if (fishGenera[fishG]) {
     response.json(fishGenera[fishG]);
   } else {
-    response.status(404);
-    response.send('There might be a spelling error in your input. No such genera found.');
+    response
+      .status(404)
+      .send(
+        JSON.stringify(
+          'There might be a spelling error in your input. No such genera found.'
+        )
+      );
   }
 });
 
