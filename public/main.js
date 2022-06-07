@@ -8,7 +8,6 @@ const fishInput = document.getElementById('fishG');
 const makeReq = async (event) => {
   event.preventDefault();
   const fishG = fishInput.value;
-  console.log(`${fishG}`);
   const res = await fetch(
     `https://madfish-api-100devs.herokuapp.com/api/${fishG}`
   );
